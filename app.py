@@ -17,6 +17,14 @@ categories = {
             'regulations': "Follow local regulations regarding the disposal of hazardous materials like batteries.",
             'type': 'hazardous',
             'color': 'yellow'
+        },
+        'biological': {
+            'description': "Batteries are used in a variety of devices to store electrical energy for later use.",
+            'segregation': "Store in a dry place, separate from other waste types, and avoid physical damage.",
+            'disposal': "Take to a designated battery recycling facility or hazardous waste collection event.",
+            'regulations': "Follow local regulations regarding the disposal of hazardous materials like batteries.",
+            'type': 'hazardous',
+            'color': 'yellow'
         }
     },
     "Glass": {
