@@ -17,14 +17,6 @@ categories = {
             'regulations': "Follow local regulations regarding the disposal of hazardous materials like batteries.",
             'type': 'hazardous',
             'color': 'yellow'
-        },
-        'biological': {
-            'description': "Biological waste includes materials from living organisms, often found in medical or research settings.",
-            'segregation': "Use a biohazard bag, avoid mixing with other waste types, and label appropriately.",
-            'disposal': "Dispose of at a biohazard disposal facility or arrange for special collection.",
-            'regulations': "Comply with biohazard waste disposal regulations and ensure proper safety measures are taken.",
-            'type': 'hazardous',
-            'color': 'yellow'
         }
     },
     "Glass": {
