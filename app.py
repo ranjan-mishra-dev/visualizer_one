@@ -155,7 +155,8 @@ if uploaded_file is not None:
 
     # Preprocess the image
     img = image.resize((img_width, img_height))
-    img_array = tf.keras.utils.img_to_array(img)
+    # img_array = tf.keras.utils.img_to_array(img)
+    img_array = tf.keras.utils.img_to_array(img) / 255.0  # Normalize the image
     img_array = tf.expand_dims(img_array, 0)  # Create batch axis
 
     # Make prediction
